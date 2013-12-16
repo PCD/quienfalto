@@ -1,0 +1,19 @@
+name = Quien Falto
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/qft.normalize.css
+stylesheets[all][] = css/qft.hacks.css
+stylesheets[all][] = css/qft.styles.css
+stylesheets[all][] = css/qft.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/qft.behaviors.js

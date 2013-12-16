@@ -1,0 +1,31 @@
+.node--slider{
+  position: relative;
+  .info{
+    position: absolute;
+    bottom: 16px;
+    left: 105px;
+    width: 475px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #FEFEFE;
+    padding: 15px;
+    a{
+      color: #00FEFD;
+    }
+    .field--name-field-link{
+      margin-right: 10px;
+      font-size: 1.2em;
+      float: left;
+    }
+    .field--name-field-fecha{
+      float: left;
+      margin-top: 4px;
+    }
+    .field--name-body{
+      clear: both;
+      padding-top: 14px;
+    }
+    .field--name-body p{
+      margin: 0;
+    }
+  }
+}

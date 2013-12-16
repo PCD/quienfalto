@@ -1,0 +1,11 @@
+.l-footer{
+  color: white;
+  border-top: solid 10px #5A5A5A;
+  // needs latest Compass, add '@import "compass"' to your scss
+  background-color: #393939; // Old browsers
+  @include filter-gradient(#393939, #282828, vertical); // IE6-9
+  @include background-image(linear-gradient(top,  #393939 0%,#282828 100%));
+  min-height: 200px;
+  height: auto !important;
+  height: 200px;
+}
