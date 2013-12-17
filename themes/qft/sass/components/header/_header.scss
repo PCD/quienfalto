@@ -1,0 +1,27 @@
+.l-header{
+  position: relative;
+}
+.l-header-inner{
+  top: 0;
+  padding: 0 105px;
+  z-index: 10;
+  position: absolute;
+  width: 1200px;
+  background: rgba(0,0,0, 0.7);
+  color: white;
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+.l-branding{
+  float: left;
+  width: 300px;
+}
+.l-region--header{
+  float: right;
+  width: 640px;
+}
