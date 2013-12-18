@@ -1,18 +1,44 @@
 .l-region--highlighted{
-  width: 1200px;
-  height: 572px;
+  width: 100% !important;
+  min-width: 990px;
+  max-height: 472px;
+  overflow: hidden;
   margin: 0 auto;
+}
+#views_slideshow_cycle_teaser_section_sliderhome-block{
+  width: 100% !important;
+  .views_slideshow_cycle_slide{
+    width: 100% !important;
+  }
 }
 .node--slider{
   position: relative;
+  .field--name-field-image{
+    height: 472px !important;
+    overflow: hidden;
+  }
+  .field--name-field-image img{
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 990px;
+    min-height: 472px;
+  }
   .info{
     position: absolute;
     bottom: 16px;
-    left: 105px;
-    width: 475px;
-    background: rgba(0, 0, 0, 0.7);
-    color: #FEFEFE;
-    padding: 15px;
+    width: 100%;
+    left: 0;
+    
+    .info_inner{
+      width: 990px;
+      margin: 0 auto;
+      .info_inner_inner{
+        width: 475px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #FEFEFE;
+        padding: 15px;
+      }
+    }
     a{
       color: #00FEFD;
     }

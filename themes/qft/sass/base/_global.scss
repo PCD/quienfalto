@@ -1,10 +1,5 @@
 body{
   background: #E5E5E5;
   color: #5E655E;
-}
-.l-header,
-.l-main,
-.l-region--footer{
-  width: 1200px;
-  margin: 0 auto;
+  min-width: 990px;
 }

@@ -9,4 +9,16 @@
   min-height: 200px;
   height: auto !important;
   height: 200px;
+  padding: 20px 0;
+  a{
+    color: #00FEFD;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+.l-region--footer{
+  width: 990px;
+  margin: 0 auto;
 }

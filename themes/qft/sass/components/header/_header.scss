@@ -3,10 +3,10 @@
 }
 .l-header-inner{
   top: 0;
-  padding: 0 105px;
+  padding: 0;
   z-index: 10;
   position: absolute;
-  width: 1200px;
+  width: 100%;
   background: rgba(0,0,0, 0.7);
   color: white;
   a{
@@ -15,6 +15,11 @@
   }
   a:hover{
     text-decoration: underline;
+  }
+  .l-header-inner-inner{
+    width: 990px;
+    height: 80px;
+    margin: 0 auto;
   }
 }
 .l-branding{
