@@ -1,0 +1,40 @@
+.page-eventos{
+  h1{
+    display: none;
+  }
+  .l-content .block{
+    clear: both;
+  }
+}
+.view-eventos{
+  .view-footer{
+    clear: both;
+    height: 1px;
+  }
+  .view-content{
+    .views-row{
+      float: left;
+      width: 209px;
+      padding: 10px;
+      margin-right: 11px;
+      box-sizing: content-box;
+      background: #FFFFFF;
+      border: #D9D9D9 solid 1px;
+      h3{
+        margin: 0;
+        font-weight: normal;
+        text-align: center;
+      }
+      a{
+        color: #656764;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+    }
+    .views-row.views-row-last{
+      margin-right: 0;
+    }
+  }
+}
