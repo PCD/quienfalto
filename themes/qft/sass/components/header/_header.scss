@@ -11,13 +11,15 @@
   color: white;
   .site-name{
     font-weight: 600;
+    font-size: 2.4em;
+    margin: 10px 0 0 0;
   }
   a{
     color: white;
     text-decoration: none;
   }
   a:hover{
-    text-decoration: underline;
+    color: #ff00ae;
   }
   .l-header-inner-inner{
     width: 990px;

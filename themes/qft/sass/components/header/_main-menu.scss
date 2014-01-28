@@ -13,9 +13,19 @@
         font-size: 20px;
         text-transform: uppercase;
       }
+      a:hover{
+        text-decoration: none;
+        color: #ff00ae;
+      }
+      ul{
+        display: none;
+      }
     }
     li.last{
       margin-right: 0;
+    }
+    li.active-trail a{
+      color: #ff00ae;
     }
   }
 }

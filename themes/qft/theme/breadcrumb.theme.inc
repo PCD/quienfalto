@@ -63,4 +63,5 @@ function qft_breadcrumb_alter_node_event(&$breadcrumb, $node) {
   $term = taxonomy_term_load($tid);
   $link = l($term->name, "taxonomy/term/{$tid}");
   $breadcrumb[] = $link;
+  menu_tree_set_path('main-menu', 'eventos');
 }
