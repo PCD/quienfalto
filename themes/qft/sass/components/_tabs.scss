@@ -1,0 +1,14 @@
+.tabs--primary{
+  margin: 0 10px 0 0;
+  border-bottom: none;
+  text-align: right;
+  li{
+    float: none;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+    a{
+      border-radius: 5px 5px 0 0;
+    }
+  }
+}

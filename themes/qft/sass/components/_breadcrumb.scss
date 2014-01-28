@@ -1,0 +1,27 @@
+.breadcrumb{
+  height: 24px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+  li{
+    float: left;
+    margin-right: 5px;
+    list-style: none;
+  }
+  li.last{
+    margin-right: 0;
+  }
+  li a, 
+  li span, 
+  li.separator{
+    display: block;
+    text-transform: uppercase;
+    color: #ff00ae;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  li span, 
+  li.separator{
+    color: black;
+  }
+}

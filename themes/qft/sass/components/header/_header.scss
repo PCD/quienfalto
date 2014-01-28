@@ -9,6 +9,9 @@
   width: 100%;
   background: rgba(0,0,0, 0.7);
   color: white;
+  .site-name{
+    font-weight: 600;
+  }
   a{
     color: white;
     text-decoration: none;
@@ -29,4 +32,10 @@
 .l-region--header{
   float: right;
   width: 640px;
+}
+.not-front{
+  .l-header-inner{
+    position: static;
+    background: #000000;
+  }
 }

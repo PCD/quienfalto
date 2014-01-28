@@ -107,13 +107,13 @@
       <div class="l-col-left">
         <div class="l-content" role="main">
           <div class="l-content-inner">
-            <?php print $breadcrumb; ?>
             <a id="main-content"></a>
             <?php print render($title_prefix); ?>
             <?php if ($title): ?>
               <h1><?php print $title; ?></h1>
             <?php endif; ?>
             <?php print render($title_suffix); ?>
+            <?php print $breadcrumb; ?>
             <?php print $messages; ?>
             <?php print render($tabs); ?>
             <?php print render($page['help']); ?>

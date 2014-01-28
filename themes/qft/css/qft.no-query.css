@@ -50,6 +50,63 @@ body {
 img, media {
   max-width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+a {
+  color: #ff00ae;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/base\/_typography\.scss}line{font-family:\000035}}
+a {
+  text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/base\/_typography\.scss}line{font-family:\000038}}
+h1, h2, h3, h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/base\/_typography\.scss}line{font-family:\0000313}}
+.l-content-inner h1 {
+  font-size: 2.8em;
+  line-height: 1.24em;
+  font-weight: 300;
+  margin: 0 0 15px;
+  color: black;
+  text-shadow: 1px 1px 0px #C5C5C5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/base\/_typography\.scss}line{font-family:\0000321}}
+.breadcrumb li {
+  font-family: 'Open Sans';
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_breadcrumb\.scss}line{font-family:\000031}}
+.breadcrumb {
+  height: 24px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_breadcrumb\.scss}line{font-family:\000036}}
+  .breadcrumb li {
+    float: left;
+    margin-right: 5px;
+    list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_breadcrumb\.scss}line{font-family:\0000311}}
+  .breadcrumb li.last {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_breadcrumb\.scss}line{font-family:\0000316}}
+  .breadcrumb li a,
+  .breadcrumb li span,
+  .breadcrumb li.separator {
+    display: block;
+    text-transform: uppercase;
+    color: #ff00ae;
+    text-decoration: none;
+    font-size: 1.1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_breadcrumb\.scss}line{font-family:\0000324}}
+  .breadcrumb li span,
+  .breadcrumb li.separator {
+    color: black; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_fb-like-box\.scss}line{font-family:\000031}}
 #block-block-2 {
   background: white;
@@ -119,6 +176,21 @@ img, media {
     .node--slider .info .field--name-body p {
       margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_tabs\.scss}line{font-family:\000031}}
+.tabs--primary {
+  margin: 0 10px 0 0;
+  border-bottom: none;
+  text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_tabs\.scss}line{font-family:\000035}}
+  .tabs--primary li {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_tabs\.scss}line{font-family:\0000310}}
+    .tabs--primary li a {
+      border-radius: 5px 5px 0 0; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/banners\/_banners-eventos\.scss}line{font-family:\000033}}
 .page-eventos .l-content .block--imageblock {
   margin: 15px 0;
@@ -172,27 +244,35 @@ img, media {
   background: rgba(0, 0, 0, 0.7);
   color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000312}}
+  .l-header-inner .site-name {
+    font-weight: 600; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000315}}
   .l-header-inner a {
     color: white;
     text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000319}}
   .l-header-inner a:hover {
     text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000322}}
   .l-header-inner .l-header-inner-inner {
     width: 990px;
     height: 80px;
     margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000328}}
 .l-branding {
   float: left;
   width: 300px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000332}}
 .l-region--header {
   float: right;
   width: 640px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_header\.scss}line{font-family:\0000337}}
+.not-front .l-header-inner {
+  position: static;
+  background: #000000; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/header\/_main-menu\.scss}line{font-family:\000031}}
 #block-system-main-menu {
@@ -252,6 +332,10 @@ img, media {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/pages\/_eventos\.scss}line{font-family:\0000337}}
 .view-eventos .view-content .views-row.views-row-last {
   margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/pages\/_node-carousel\.scss}line{font-family:\000031}}
+.connected-carousels .stage {
+  margin-top: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/right\/_sidebar-right\.scss}line{font-family:\000031}}
 .l-region--sidebar-second .block {
