@@ -1,0 +1,64 @@
+.page-taxonomy-term{
+  .page-content-wrapper{
+    width: 711px;
+    margin: 2px auto;
+    clear: both;
+  }
+  .page-content{
+    padding: 20px 20px 1px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+    background: white;
+  }
+  .l-main{
+    margin: 20px 0 0;
+    width: auto;
+  }
+  .l-content-header,
+  .l-content-feeds{
+    width: 990px;
+    margin: 0 auto;
+  }
+  .l-main-2{
+    margin-top: 20px;
+    clear: both;
+    .field--name-field-image{
+      width: 220px;
+      height: 220px;
+      float: left;
+      border-radius: 5px 5px 5px 5px;
+      -webkit-box-shadow: 3px 2px 7px #444;
+      -moz-box-shadow: 3px 2px 7px #444;
+      box-shadow: 3px 2px 7px #444;
+      .field__items{
+        border-radius: 5px 5px 5px 5px;
+        width: 220px;
+        height: 220px;
+        overflow: hidden;
+      }
+    }
+    .column-2{
+      margin-left: 20px;
+      float: left;
+      width: 508px;
+    }
+    .column-3{
+      float: left;
+      width: 220px;
+      margin-left: 20px;
+    }
+    .main-breaker{
+      clear: both;
+      height: 1px;
+    }
+  }
+  .term-listing-heading .l-main-2{
+    padding: 0 0 0 2px;
+  }
+  #taxonomy_term_lugar_full_group_wide{
+    border-top: solid 1px #F093D3;
+    border-bottom: solid 1px #F093D3;
+  }
+}

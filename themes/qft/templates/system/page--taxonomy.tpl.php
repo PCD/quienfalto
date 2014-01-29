@@ -1,4 +1,30 @@
 <?php
+$page['content']['system_main']['term_heading']['#weight'] = 0;
+$page['content']['system_main']['term_nodes'] = array(
+  'column-left' => array(
+    'nodes' => $page['content']['system_main']['nodes'], 
+  ), 
+  'sidebar' => $page['sidebar_second'], 
+  '#weight' => 1, 
+);
+// Over All
+$page['content']['system_main']['term_nodes']['#prefix'] = '
+<div class="l-main-2">
+  <div class="l-two-columns">
+    <div class="l-col-left">';
+$page['content']['system_main']['term_nodes']['#suffix'] = '</div></div></div>';
+// Column Left
+$prefix = "
+<div class=\"l-content\" role=\"main\">
+  <div class=\"l-content-inner\">
+    <div class=\"page-content-wrapper\">
+      <div class=\"page-content\">\n";
+$suffix = "</div>\n</div>\n</div>\n</div>\n";
+$page['content']['system_main']['term_nodes']['column-left']['#prefix'] = $prefix;
+$page['content']['system_main']['term_nodes']['column-left']['#suffix'] = $suffix;
+unset($page['content']['system_main']['nodes']);
+unset($page['sidebar_second']);
+
 /**
  * @file
  * Default theme implementation to display a single Drupal page.
@@ -101,36 +127,29 @@
   
   <?php print render($page['highlighted']); ?>
 
-  <div class="l-main">
-    <div class="l-two-columns">
-      <div class="l-col-left">
-        <div class="l-content" role="main">
-          <div class="l-content-inner">
-            <a id="main-content"></a>
-            <?php print render($title_prefix); ?>
-            <?php if ($title): ?>
-              <h1><?php print $title; ?></h1>
-            <?php endif; ?>
-            <?php print render($title_suffix); ?>
-            <?php print $breadcrumb; ?>
-            <?php print $messages; ?>
-            <?php print render($tabs); ?>
-            <?php print render($page['help']); ?>
-            <?php if ($action_links): ?>
-              <ul class="action-links"><?php print render($action_links); ?></ul>
-            <?php endif; ?>
-            <div class="page-content-wrapper">
-              <div class="page-content">
-                <?php print render($page['content']); ?>
-              </div>
-            </div>
-            <?php print $feed_icons; ?>
-          </div>
-        </div>
-        <?php print render($page['sidebar_second']); ?>
-      </div>
+  <div class="l-main one-column">
+    <div class="l-content-header">
+      <a id="main-content"></a>
+      <?php print render($title_prefix); ?>
+      <?php if ($title): ?>
+        <h1><?php print $title; ?></h1>
+      <?php endif; ?>
+      <?php print render($title_suffix); ?>
+      <?php print $breadcrumb; ?>
+      <?php print $messages; ?>
+      <?php print $social_buttons;?>
+      <?php print render($tabs); ?>
+      <?php print render($page['help']); ?>
+      <?php if ($action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
     </div>
-    
+    <div class="l-content-body">
+      <?php print render($page['content']); ?>
+    </div>
+    <div class="l-content-feeds">
+      <?php print $feed_icons; ?>
+    </div>
   </div>
 
   <footer class="l-footer" role="contentinfo">

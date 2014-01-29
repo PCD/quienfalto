@@ -22,3 +22,9 @@ h1, h2, h3, h4{
   font-family: 'Open Sans';
   font-weight: normal;
 }
+.node-teaser h2 a{
+  text-decoration: none;
+}
+.node-teaser h2 a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.node--event--teaser{
+  margin-bottom: 20px;
+  
+  .content{
+    h2{
+      margin: 0 0 20px 0;
+    }
+    .image{
+      float: left;
+      width: 209px;
+    }
+    .right-column{
+      margin-left: 229px;
+    }
+    p{
+      margin: 0 0 10px 0;
+    }
+  }
+}
+.node--event--teaser+.node--event--teaser{
+  padding-top: 20px;
+  border-top: solid 1px #DDD;
+}

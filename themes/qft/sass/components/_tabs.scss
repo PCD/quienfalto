@@ -1,5 +1,6 @@
 .tabs--primary{
-  margin: 0 10px 0 0;
+  float: right;
+  margin: 8px 10px 0 0;
   border-bottom: none;
   text-align: right;
   li{
@@ -11,4 +12,7 @@
       border-radius: 5px 5px 0 0;
     }
   }
+}
+.term-listing-heading{
+  clear: both;
 }
