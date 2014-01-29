@@ -10,7 +10,8 @@ h1, h2, h3, h4{
   font-style: normal;
   font-weight: 400;
 }
-.l-content-inner h1{
+.l-content-inner h1,
+.l-content-header h1{
   font-size: 2.8em;
   line-height: 1.24em;
   font-weight: 300;

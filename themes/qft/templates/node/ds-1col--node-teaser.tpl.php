@@ -12,7 +12,9 @@
 
   <div class="content">
     <div class="image">
-      <img src="<?php print $field_picture_evento_teaser[0]['url'];?>" />
+      <a href="<?php print $node_url;?>">
+        <img src="<?php print $field_picture_evento_teaser[0]['url'];?>" />
+      </a>
     </div>
     <div class="right-column">
       <h2><a href="<?php print $node_url;?>"><?php print $title;?></a></h2>

@@ -24,7 +24,8 @@
     li.last{
       margin-right: 0;
     }
-    li.active-trail a{
+    li.active-trail a,
+    li a.active{
       color: #ff00ae;
     }
   }

@@ -36,9 +36,14 @@ function qft_breadcrumb($variables) {
  * Alters the Breadcrumb.
  */
 function qft_breadcrumb_alter(&$breadcrumb) {
+  // Node Page
   if ( arg(0) == 'node' && intval(arg(1)) > 0 && is_null(arg(2)) ) {
-    // Node Page
     qft_breadcrumb_alter_node($breadcrumb);
+  }
+  
+  // Taxonomy Term Page
+  if ( arg(0) == 'taxonomy' && arg(1) == 'term' && intval(arg(2)) > 0 && is_null(arg(3)) ) {
+    qft_breadcrumb_alter_taxonomy_term($breadcrumb);
   }
 }
 
@@ -64,4 +69,12 @@ function qft_breadcrumb_alter_node_event(&$breadcrumb, $node) {
   $link = l($term->name, "taxonomy/term/{$tid}");
   $breadcrumb[] = $link;
   menu_tree_set_path('main-menu', 'eventos');
+}
+
+/**
+ * Alters the Breadcrumb for Taxonomy Term Pages.
+ */
+function qft_breadcrumb_alter_taxonomy_term(&$breadcrumb) {
+  $term = taxonomy_term_load(arg(2));
+  $breadcrumb[] = "<span>{$term->name}</span>";
 }
