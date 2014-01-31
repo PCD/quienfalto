@@ -1,0 +1,26 @@
+.page-lugares{
+  #block-views-lugares-block-1{
+    border-top: solid 1px #F093D3;
+    border-bottom: solid 1px #F093D3
+  }
+  .page-content-wrapper{
+    width: 711px;
+    margin: 2px auto;
+    clear: both;
+  }
+  .page-content{
+    padding: 20px 20px 1px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999;
+    background: white;
+    .views-row{
+      margin-bottom: 20px;
+    }
+    .views-row+.views-row{
+      padding-top: 20px;
+      border-top: solid 1px #DDD;
+    }
+  }
+}

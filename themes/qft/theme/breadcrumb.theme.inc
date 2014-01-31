@@ -45,6 +45,11 @@ function qft_breadcrumb_alter(&$breadcrumb) {
   if ( arg(0) == 'taxonomy' && arg(1) == 'term' && intval(arg(2)) > 0 && is_null(arg(3)) ) {
     qft_breadcrumb_alter_taxonomy_term($breadcrumb);
   }
+  
+  // Lugares
+  if ( arg(0) == 'lugares' ) {
+    $breadcrumb[] = "<span>Lugares</span>";
+  }
 }
 
 /**

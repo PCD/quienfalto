@@ -1,0 +1,23 @@
+.view-mode-taxonomy_teaser{
+  .field--name-title h2{
+    margin: 0 0 20px 0;
+  }
+  .field--name-field-image{
+    width: 220px;
+    height: 220px;
+    float: left;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 3px 2px 7px #444;
+    -moz-box-shadow: 3px 2px 7px #444;
+    box-shadow: 3px 2px 7px #444;
+    .field__items{
+      border-radius: 5px 5px 5px 5px;
+      width: 220px;
+      height: 220px;
+      overflow: hidden;
+    }
+  }
+  .column-2{
+    margin-left: 240px;
+  }
+}

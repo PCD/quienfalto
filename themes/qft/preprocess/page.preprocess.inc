@@ -6,9 +6,17 @@
 function qft_preprocess_page(&$vars) {
   qft_preprocess_page_node($vars);
   qft_preprocess_page_taxonomy_term($vars);
-  
-  // You can use preprocess hooks to modify the variables before they are passed
-  // to the theme function or template file.
+  qft_preprocess_page_lugares($vars);
+}
+
+/**
+ * Preprocess page for Lugares.
+ */
+function qft_preprocess_page_lugares(&$vars) {
+  if ( arg(0) == 'lugares' ) {
+    $node_url = url('lugares', array('absolute'=>TRUE));
+    $vars['social_buttons'] = qft_social_buttons($node_url);
+  }
 }
 
 /**
