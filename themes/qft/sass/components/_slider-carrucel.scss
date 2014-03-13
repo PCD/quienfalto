@@ -11,52 +11,96 @@
     width: 100% !important;
   }
 }
-.node--slider{
-  position: relative;
-  .field--name-field-image{
-    height: 472px !important;
-    overflow: hidden;
-  }
-  .field--name-field-image img{
-    width: 100% !important;
-    height: 100% !important;
-    min-width: 990px;
-    min-height: 472px;
-  }
-  .info{
-    position: absolute;
-    bottom: 16px;
-    width: 100%;
-    left: 0;
+#block-views-sliderhome-block{
+  .skin-default{
+    position: relative;
     
-    .info_inner{
-      width: 990px;
+  }
+  .views-slideshow-controls-bottom{
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 32px;
+    clear: none;
+    z-index: 20;
+    .wrapper{
+      width: 960px;
+      height: 20px;
       margin: 0 auto;
-      .info_inner_inner{
-        width: 475px;
-        background: rgba(0, 0, 0, 0.7);
-        color: #FEFEFE;
-        padding: 15px;
+    }
+    #widget_pager_bottom_sliderhome-block{
+      width: 445px;
+      height: 20px;
+      .views-slideshow-pager-field-item{
+        float: right;
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        .views-content-title{
+          display: block;
+          width: 20px;
+          height: 20px;
+          text-indent: -9999px;
+          background: white;
+          border-radius: 10px 10px 10px 10px;
+          cursor: pointer;
+        }
+      }
+      .views-slideshow-pager-field-item.active{
+        .views-content-title{
+          background: #ff00ae;
+        }
       }
     }
-    a{
-      color: #00FEFD;
+  }
+  .views-row{
+    position: relative;
+    .image{
+      height: 472px !important;
+      overflow: hidden;
+      img{
+        width: 100% !important;
+        height: 100% !important;
+        min-width: 990px;
+        min-height: 472px;
+      }
     }
-    .field--name-field-link{
-      margin-right: 10px;
-      font-size: 1.2em;
-      float: left;
-    }
-    .field--name-field-fecha{
-      float: left;
-      margin-top: 4px;
-    }
-    .field--name-body{
-      clear: both;
-      padding-top: 14px;
-    }
-    .field--name-body p{
-      margin: 0;
+    .info{
+      position: absolute;
+      bottom: 16px;
+      width: 100%;
+      left: 0;
+      
+      .info_inner{
+        width: 990px;
+        margin: 0 auto;
+        .info_inner_inner{
+          width: 475px;
+          background: rgba(0, 0, 0, 0.7);
+          color: #FEFEFE;
+          padding: 15px 15px 45px;
+        }
+      }
+      a{
+        color: #00FEFD;
+      }
+      .link{
+        margin-right: 10px;
+        font-size: 1.2em;
+        float: left;
+      }
+      .date{
+        float: left;
+        margin-top: 4px;
+      }
+      .body{
+        clear: both;
+        padding-top: 14px;
+        p{
+          margin: 0;
+        }
+      }
     }
   }
 }
