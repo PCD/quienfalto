@@ -190,7 +190,7 @@ h1, h2, h3, h4 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_slider-carrucel\.scss}line{font-family:\0000362}}
     #block-views-sliderhome-block .views-row .image img {
       width: 100% !important;
-      height: 100% !important;
+      height: auto !important;
       min-width: 990px;
       min-height: 472px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.quienfalto\.com\/themes\/qft\/sass\/components\/_slider-carrucel\.scss}line{font-family:\0000369}}
